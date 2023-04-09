@@ -4,17 +4,12 @@
   "description": "this is just a lab for dockerizing node application",
   "main": "main.js",
   "scripts": {
-    "start": "node server.js",
-    "lint": "eslint ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
     "path": "^0.12.7"
-  },
-  "devDependencies": {
-    "eslint": "^8.36.0",
-    "eslint-config-google": "^0.14.0"
   }
 }
